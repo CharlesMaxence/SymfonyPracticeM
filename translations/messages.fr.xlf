@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="Rk.0YHK" resname="DigitalFirstSteps">
+        <source>DigitalFirstSteps</source>
+        <target>Premiers pas numériques</target>
+      </trans-unit>
+      <trans-unit id="Nblh.N." resname="SymfonyParctice">
+        <source>SymfonyParctice</source>
+        <target>Entrainement sur Symfony</target>
+      </trans-unit>
+      <trans-unit id="ExFLJqx" resname="Home">
+        <source>Home</source>
+        <target>__Home</target>
+      </trans-unit>
+      <trans-unit id="YbUxazW" resname="Link">
+        <source>Link</source>
+        <target>Liens</target>
+      </trans-unit>
+      <trans-unit id="EpXL8TP" resname="Dropdown">
+        <source>Dropdown</source>
+        <target>Menu déroulant</target>
+      </trans-unit>
+      <trans-unit id="BUIQ..a" resname="Action">
+        <source>Action</source>
+        <target>__Action</target>
+      </trans-unit>
+      <trans-unit id="cJHNALC" resname="Another action">
+        <source>Another action</source>
+        <target>__Another action</target>
+      </trans-unit>
+      <trans-unit id="zklwMno" resname="Something else here">
+        <source>Something else here</source>
+        <target>__Something else here</target>
+      </trans-unit>
+      <trans-unit id="tK64T0a" resname="Disabled">
+        <source>Disabled</source>
+        <target>Desactivé</target>
+      </trans-unit>
+      <trans-unit id="SdNWA5t" resname="Search">
+        <source>Search</source>
+        <target>Cherché</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
