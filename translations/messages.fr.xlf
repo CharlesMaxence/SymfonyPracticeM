@@ -15,7 +15,7 @@
       </trans-unit>
       <trans-unit id="ExFLJqx" resname="Home">
         <source>Home</source>
-        <target>__Home</target>
+        <target>Accueil</target>
       </trans-unit>
       <trans-unit id="YbUxazW" resname="Link">
         <source>Link</source>
@@ -27,15 +27,15 @@
       </trans-unit>
       <trans-unit id="BUIQ..a" resname="Action">
         <source>Action</source>
-        <target>__Action</target>
+        <target>Action</target>
       </trans-unit>
       <trans-unit id="cJHNALC" resname="Another action">
         <source>Another action</source>
-        <target>__Another action</target>
+        <target>Une autre action</target>
       </trans-unit>
       <trans-unit id="zklwMno" resname="Something else here">
         <source>Something else here</source>
-        <target>__Something else here</target>
+        <target>Quelque chose d'autre ici</target>
       </trans-unit>
       <trans-unit id="tK64T0a" resname="Disabled">
         <source>Disabled</source>
@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="SdNWA5t" resname="Search">
         <source>Search</source>
-        <target>Cherché</target>
+        <target>Rechercher</target>
       </trans-unit>
     </body>
   </file>
