@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{'Country index'|trans}}{% endblock %}
+
+{% block body %}
+    <h1>{{'Country index'|trans}}</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>{{'Id'|trans}}</th>
+                <th>{{'Name'|trans}}</th>
+                <th style='text-align: center;'>{{'actions'|trans}}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for country in countries %}
+            <tr>
+                <td>{{ country.id }}</td>
+                <td>{{ country.name }}</td>
+                <td align='center'>
+                    {{ include('actions/_action_form.html.twig', {'object': country, 'app_delete': 'app_country_delete','app_show': 'app_country_show','app_edit': 'app_country_edit'}) }}
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="3">{{'no records found'|trans}}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_country_new') }}"><button class="btn btn-primary">{{'Create new'|trans}}</button></a>
+    
+{% endblock %}
