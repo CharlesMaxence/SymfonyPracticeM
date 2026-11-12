@@ -45,10 +45,12 @@
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="{{ path('app_credit_index') }}">{{'Credits'|trans}}</a></li>
                     <li><a class="dropdown-item" href="{{ path('app_image_index') }}">{{'Images'|trans}}</a></li>
-                    <li><a class="dropdown-item" href="{{ path('app_theme_index') }}">{{'Themes'|trans}}</a></li>
                     {% if is_granted('ROLE_SUPER_ADMIN') %}
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="{{ path('app_user_index') }}">{{'Users'|trans}}</a></li>
+                      <li><a class="dropdown-item" href="{{ path('app_theme_index') }}">{{'Themes'|trans}}</a></li>
+                      <li><a class="dropdown-item" href="{{ path('app_slide_show_index') }}">{{'Slide show'|trans}}</a></li>
+                      <li><a class="dropdown-item" href="{{ path('app_slide_index') }}">{{'Slide'|trans}}</a></li>
                       <li><a class="dropdown-item" href="{{ path('app_question_index') }}">{{'Question'|trans}}</a></li>
                       <li><a class="dropdown-item" href="{{ path('app_answer_index') }}">{{'Answer'|trans}}</a></li>
                     {% endif %}

@@ -24,6 +24,9 @@ class Theme
     #[ORM\Column]
     private ?int $step = null;
 
+    #[ORM\OneToOne(mappedBy: 'theme', cascade: ['persist', 'remove'])]
+    private ?SlideShow $slideShow = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -61,6 +64,23 @@ class Theme
     public function setStep(int $step): static
     {
         $this->step = $step;
+
+        return $this;
+    }
+
+    public function getSlideShow(): ?SlideShow
+    {
+        return $this->slideShow;
+    }
+
+    public function setSlideShow(SlideShow $slideShow): static
+    {
+        // set the owning side of the relation if necessary
+        if ($slideShow->getTheme() !== $this) {
+            $slideShow->setTheme($this);
+        }
+
+        $this->slideShow = $slideShow;
 
         return $this;
     }
